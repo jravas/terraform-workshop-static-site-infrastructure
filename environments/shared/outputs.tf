@@ -8,4 +8,9 @@ output "user_credentials" {
     module.josip_ravas_user,
   ]
 }
+output "vpc" {
+  description = "VPC"
+  value       = module.networking
+}
+
 
